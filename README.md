@@ -18,13 +18,3 @@ dataset-wide median.
 To meet the EMATS criteria, the alternative first exon's TSS must then be within 
 5 kilobases downstream of the skipped exon's 3' splice site, and the exons' 
 intervals cannot overlap.
-
----
-The processed data is included in the `data` directory; our final outputs can be 
-found in the `genes` directory:
-- `emats_genes.hg19.tsv` contains EMATS genes, as well as information about the 
-exon pairs that enabled their identification, and
-- `unannotated_afes.hg19.tsv` contains information about any unannotated alternative 
-first exons that appear `emats_genes.hg19.tsv`.
-
-A series of comments at the top of either file describe that file's fields.
