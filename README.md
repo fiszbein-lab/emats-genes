@@ -22,10 +22,9 @@ samples spanning 54 tissue sub-types, generating an organism-wide gene set,
 |---------------------|-----------------------------------------------------------------------------------------|
 | `gene-id`           | The EMATS gene ID.                                                                      |
 | `gene-name`         | The EMATS gene name.                                                                    |  
-| `gene-type`         | The EMATS gene's annotated function.                                                    |
 | `first-exon`        | The first exon in generic genome-browser format, e.g., `chr1:100-200`.                  |  
 | `skipped-exon`      | The skipped exon in generic genome-browser format.                                      |  
-| `kilobase-distance` | The kilobase distance between the first and skipped exons, computed as described above. |  
+| `kb-distance` | The kilobase distance between the first and skipped exons, computed as described above. |  
 | `strand`            | The occupied strand, plus or minus for forward or reverse.                              |  
 
 whereas in the latter, column 1 is `gene-id`, column 2 is `gene-name`, and the 
