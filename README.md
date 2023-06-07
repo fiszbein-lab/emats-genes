@@ -1,5 +1,6 @@
 
-# emats-genes    
+# emats-genes
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8015003.svg)](https://doi.org/10.5281/zenodo.8015003)
 >*The code in this repository was used to identify EMATS genes in
 > [Uriostegui et al., 2023](https://www.biorxiv.org/content/10.1101/2022.09.16.508316v1).*    
 
