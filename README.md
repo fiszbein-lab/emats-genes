@@ -14,8 +14,8 @@ If a weak promoter's transcription start site is then within 5 kilobases and ups
 ### Tables    
 In Uriostegui *et al.*, 2023, we applied to above criteria to 17,350 GTEx 
 samples spanning 54 tissue sub-types, generating an organism-wide gene set, 
-`genes/human.tsv`, as well as a gene set for each tissue, 
-`genes/tissues/*.tsv`. The former has the format
+`tables/emats-genes.tsv`, as well as a gene set for each tissue, 
+`tables/tissue-specific-emats-genes.tsv`. The former has the format
     
 | Column              | Description                                                                             |
 |---------------------|-----------------------------------------------------------------------------------------|
@@ -29,4 +29,4 @@ samples spanning 54 tissue sub-types, generating an organism-wide gene set,
 
 whereas in the latter, column 1 is `gene-id`, column 2 is `gene-name`, and the 
 remaining columns are tissues, with 1 indicating the gene is EMATS-specific to
-the column issue.
+the column's tissue.
