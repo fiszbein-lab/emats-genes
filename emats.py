@@ -36,7 +36,6 @@ def get_emats_genes(
 
         for gene in gene_set:
             gene_name = genes[gene]['gene_name']
-            gene_type = genes[gene]['gene_type']
             strand = genes[gene]['strand']
 
             fe_set = {fe for samp in fe_psi for fe in fe_psi[samp][gene]}
@@ -81,7 +80,6 @@ def get_emats_genes(
                             not overlap):
                         f.write((f"{gene}\t"
                                  f"{gene_name}\t"
-                                 f"{gene_type}\t"
                                  f"{fe}\t"
                                  f"{se}\t"
                                  f"{kb_dist}\t"
